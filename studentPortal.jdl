@@ -1,0 +1,34 @@
+
+application {
+  config {
+    baseName studentPortal
+    applicationType monolith
+    authenticationType jwt
+    prodDatabaseType postgresql
+    enableHibernateCache true
+  }
+  entities ReportCard
+}
+
+entity ReportCard {
+  semester Integer required
+  classification String required
+  pdfFile Blob required
+  comments String
+}
+
+// Relationships
+relationship ManyToOne {
+  ReportCard{student(login)} to User
+  ReportCard{teacher(login)} to User
+}
+
+// Use MapStruct for DTO
+dto * with mapstruct
+
+// Service classes
+service * with serviceClass
+
+// Pagination
+paginate ReportCard with pagination
+
