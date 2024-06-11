@@ -19,8 +19,8 @@ entity ReportCard {
 
 // Relationships
 relationship ManyToOne {
-  ReportCard{student(login)} to User
-  ReportCard{teacher(login)} to User
+ ReportCard{student(login)} to User with builtInEntity
+	ReportCard{teacher(login)} to User with builtInEntity
 }
 
 // Use MapStruct for DTO

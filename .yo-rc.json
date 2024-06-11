@@ -1,5 +1,6 @@
 {
   "generator-jhipster": {
+    "applicationIndex": 0,
     "applicationType": "monolith",
     "authenticationType": "jwt",
     "baseName": "studentPortal",
@@ -16,11 +17,12 @@
     "enableHibernateCache": true,
     "enableSwaggerCodegen": false,
     "enableTranslation": true,
-    "entities": [],
+    "entities": ["ReportCard"],
     "feignClient": null,
     "jhipsterVersion": "8.4.0",
     "jwtSecretKey": "ZDk4Yzc3NDQ5NTgyNjM5OTc1YzNlNDAzZmVkZTAzNjkxNmYwMzczM2E0NjIyNDZkYzliZjk3ZWYxMjkyNDYzNjdjMTVkNzkxN2MwN2NlY2ZjNzQxNDA0MWE2YzdlOGMxOGUxNWY0ZDBiZDNlZjk4ODYwZDQ2MmQ5N2U0N2I4NmU=",
     "languages": ["en"],
+    "lastLiquibaseTimestamp": 1718043232000,
     "messageBroker": false,
     "microfrontend": null,
     "microfrontends": [],
