@@ -1,0 +1,29 @@
+{
+  "studentPortalApp": {
+    "reportCard": {
+      "home": {
+        "title": "Report Cards",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Report Card",
+        "createOrEditLabel": "Create or edit a Report Card",
+        "notFound": "No Report Cards found"
+      },
+      "created": "A new Report Card is created with identifier {{ param }}",
+      "updated": "A Report Card is updated with identifier {{ param }}",
+      "deleted": "A Report Card is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Report Card {{ id }}?"
+      },
+      "detail": {
+        "title": "Report Card"
+      },
+      "id": "ID",
+      "semester": "Semester",
+      "classification": "Classification",
+      "pdfFile": "Pdf File",
+      "comments": "Comments",
+      "student": "Student",
+      "teacher": "Teacher"
+    }
+  }
+}
